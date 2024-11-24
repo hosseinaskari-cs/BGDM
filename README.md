@@ -1,1 +1,1 @@
-# BGDM.
+# BGDM
