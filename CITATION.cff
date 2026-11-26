@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use BGDM in research, please cite the WACV paper.
+title: Bi-Level Guided Diffusion Models (BGDM)
+type: software
+authors:
+  - family-names: Askari
+    given-names: Hossein
+  - family-names: Roosta
+    given-names: Fred
+  - family-names: Sun
+    given-names: Hongfu
+preferred-citation:
+  type: conference-paper
+  title: Training-Free Medical Image Inverses via Bi-Level Guided Diffusion Models
+  authors:
+    - family-names: Askari
+      given-names: Hossein
+    - family-names: Roosta
+      given-names: Fred
+    - family-names: Sun
+      given-names: Hongfu
+  collection-title: Proceedings of the Winter Conference on Applications of Computer Vision (WACV)
+  year: 2025
+  month: 2
+  start: 75
+  end: 84
+  url: https://openaccess.thecvf.com/content/WACV2025/html/Askari_Training-Free_Medical_Image_Inverses_via_Bi-Level_Guided_Diffusion_Models_WACV_2025_paper.html

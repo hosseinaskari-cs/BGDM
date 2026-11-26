@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bgdm"
+version = "0.1.0"
+description = "Pretrained bi-level guided diffusion for MRI and CT inverse problems"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pillow>=10",
+    "torch>=2.4",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+bgdm = "bgdm.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bgdm*"]
+
+[tool.setuptools]
+license-files = ["THIRD_PARTY_NOTICES.md", "licenses/*"]

@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "BGDM: Debug BraTS MRI",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "bgdm",
+      "python": "${workspaceFolder}/.conda/bin/python",
+      "windows": {
+        "python": "${workspaceFolder}/.conda/python.exe"
+      },
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "reconstruct",
+        "brats",
+        "--method", "bgdm",
+        "--device", "auto",
+        "--output", "${input:bratsOutput}"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "bratsOutput",
+      "type": "promptString",
+      "description": "Output directory for this BraTS run. Choose a fresh name for each run.",
+      "default": "outputs/brats-debug"
+    }
+  ]
+}
