@@ -110,13 +110,12 @@ The tests use synthetic arrays and run without checkpoint downloads. Use `bgdm c
 ## Citation
 
 ```bibtex
-@InProceedings{Askari_2025_WACV,
-  author    = {Askari, Hossein and Roosta, Fred and Sun, Hongfu},
-  title     = {Training-Free Medical Image Inverses via Bi-Level Guided Diffusion Models},
-  booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
-  year      = {2025},
-  month     = {February},
-  pages     = {75--84}
+@inproceedings{askari2025bgdm,
+  title = {Training-Free Medical Image Inverses via Bi-Level Guided Diffusion Models},
+  author = {Askari, Hossein and Roosta, Fred and Sun, Hongfu},
+  booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages = {75--84},
+  year = {2025},
 }
 ```
 
